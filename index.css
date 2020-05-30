@@ -1,11 +1,23 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 body {
-    font-size: 20px;
+    
     text-align: center;
     line-height: 1.5;
+}
+
+/* NAV-BAR STYLING */
+.nav-bar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar, header, footer {
+    background-color: #6899F3;
 }
 
 .nav-bar, footer {
@@ -13,46 +25,243 @@ body {
     padding: 1% 0;
 }
 
-.nav-bar, header, footer {
-    background-color: #6899F3;
+.mylogo {
+    width: 31px;
+    margin-left: 17px;
+    margin-top: 5px;
 }
 
+#myLinks {
+    list-style: none;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+}
 
-.nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+a {
+    color: #091935;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E7EFFD;
+}
+
+.link {
+    font-size: 16px;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 0 10px;   
+}
+
+/* HERO STYLING */
+h1 {
+    font-size: 40px;
+    font-family: Poppins;
+    text-align: left;
+    padding-left: 30px;
 }
 
 header {
-    padding: 12% 0;
+    padding-top: 240px;
+    padding-bottom: 80px;
+ }
+
+.title {
+    color:#091935;
 }
 
-.aboutme {
-    background-color: #E7EFFD;
+.webDev {
+    color:#0B3584;
+}
+
+.title, .webDev {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 section {
+    width: 100%;
     min-height: 200px;
-    padding: 6% 0;
-    background-color: #ddd;
+    background-color: white;
 }
 
+ /*About Me section */
+ h2 {
+     font-size: 32px;
+     color: #0B3584;
+     text-decoration: underline;
+     padding-top: 50px;
+ }
+
+ #about {
+    background-color: #E7EFFD;
+}
+
+ .aboutMe {
+     font-size: 24px;
+     line-height: 150%;
+     color: #091935;
+     font-family: PT Serif;
+     display: inline-block;
+     padding: 80px 40px;
+     text-align: left;
+ }
+
+ /* Projects Section */
+h3 {
+    font-size: 32px;
+    color: #0B3584;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+#project {
+    margin-bottom: 80px;
+}
+
+ .dogQuiz {
+     width: 100%;
+ }
+
+ .projectTitle {
+    font-size: 30px;
+    color: #091935;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+ .projectDescription {
+     font-size: 24px;
+     line-height: 150%;
+     color: #091935;
+     font-family: PT Serif;
+     text-align: left;
+     padding: 20px 40px 30px 40px;
+ }
+
+ .button {
+     border: 1px solid #091935;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 0 10px 20px 0;
+     color: #091935;
+ }
+
+ .button:hover {
+    color: #0B3584;
+ }
+
+ /* Contact Section */
+ footer {
+     margin-top: 80px
+ }
+ 
+ .finalComments {
+     font-family: PT Serif;
+     text-align: left;
+     color: #091935;
+     font-size: 24px;
+     padding: 40px;
+ }
+ .email {
+     padding-left: 40px;
+     text-align: left;
+     margin-bottom: 30px;
+ }
+
+ .emailButton {
+     border: 1px solid #091935;
+     padding: 10px;
+     border-radius: 5px;
+     color: #091935;
+ }
+
+ .emailButton:hover {
+    color: #E7EFFD;
+ }
+
+ .ending {
+     margin-bottom: 80px;
+     text-align: left;
+     padding-left: 40px;
+ }
+
+ .repo {
+     padding-right: 20px;
+ }
+
+ /* for tablet screens */
+ @media only screen and (min-width: 550px) {
+     * {
+         font-size: 1.1em;
+     }
+
+     h1 {
+         max-width: 85%;
+     }
+
+     .mylogo {
+         width: 50px;
+     }
+
+     #myLinks {
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .aboutMe {
+        max-width: 85%;
+    }
+
+    .projectDescription {
+        max-width: 85%;
+    }    
+
+    .email, .ending, .finalComments {
+        max-width: 85%;
+    }
+ }
 
 
+ /* Larger screen sizes (laptops/desktops) */
 @media only screen and (min-width: 800px) {
-    .project1, .project2 {
-        display: inline-block;
-        width: 47%;
-        margin: 24px 0px;
+    h1 {
+        font-size: 50px;
+        max-width: 80%;
+    }
+    .mylogo {
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 7px;
     }
 
-    .project3, .project4 {
-        display: inline-block;
-        width: 47%;
-        margin: 24px 0px;
+    #myLinks {
+        margin-right: 20px;
+        margin-top: 7px;
     }
+
+    .aboutMe {
+        max-width: 80%;
+    }
+
+    .projectDescription {
+        max-width: 80%;
+    }
+
+    .email, .ending, .finalComments {
+        max-width: 85%;
+    }
+
+    
+
+   
+
+    
+
+
 }
 
 
