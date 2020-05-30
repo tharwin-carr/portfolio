@@ -5,38 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tharwin Carr</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 </head>
 
 <body>
-    <nav role= 'navigation' class='nav-bar'>Nav Bar</nav>
-    <main role= 'main'>
-        <header role= 'banner'>
-            <h1>Hero</h1>
+    <nav class='nav-bar'>
+            <img src="Images/My-Logo2.png" class='mylogo' alt='tc logo'>
+            <ul id='myLinks'>
+                <li class='link'>
+                    <a href= '#about'>About</a>
+                </li>
+                <li class='link'>
+                    <a href= '#project'>Projects</a>
+                </li>
+                <li class='link'>
+                    <a href= '#contact'>Contact</a>
+                </li>
+            </ul>
+    </nav>
+
+    <main>
+        <header>
+            <h1 class='title'>Tharwin Carr - <br> 
+                <span class='webDev'>
+                    Web Developer
+                </span>
+            </h1>
         </header>
 
-        <section class='aboutme'>
-            Section 1
+        <section id= 'about'>
+            <h2>
+                About Me
+            </h2>
+            <p class= 'aboutMe'>
+                I am a web developer currently enrolled in BLOC. I strive to write clean, efficient code and enjoy
+                spending my time perfecting this craft. I love coding because it is challenging and keeps my mind sharp.
+                I look forward to working with developers who share the same passion and excitement for coding as me.<br>
+                Outide of coding, my interests include playing basketball, reading a good book, and hiking any of California's
+                beautiful trails. I am always learning and tryng to better myself while having fun doing so!
+            </p>
         </section>
 
-        <section class= 'project1'>
-            Project 1
-        </section>
-
-        <section class= 'project2'>
-            Project 2
-        </section>
-
-        <section class= 'project3'>
-            Project 3
-        </section>
-
-        <section class= 'project4'>
-            Project 4
+        <section id= 'project'>
+            <h3>
+                Projects
+            </h3>
+            <img src='Images/ScreenShot.png' class='dogQuiz' alt='picture of dog quiz app'>
+            <h4 class='projectTitle'>
+                Dog Quiz App
+            </h4>
+            <img src="https://img.icons8.com/ios-filled/40/000000/html-5.png" alt='HTML5 logo'/>,
+            <img src="https://img.icons8.com/ios-filled/40/000000/css3.png" alt='CSS3 logo'/>,              
+            <img src="https://img.icons8.com/ios-filled/40/000000/javascript.png" alt='JavaScript logo'/>,                
+            <img src='https://img.icons8.com/ios-filled/40/000000/jquery.png' alt='jQuery logo'/>
+            <p class= 'projectDescription'>
+                This project was an assignment for BLOC during our JQuery module. The app tests your knowledge about
+                dogs. It keeps track of right and wrong answers then presents the final score at the end.
+            </p>
+            <a href='https://tharwin-carr.github.io/dog-quiz-app/' target='_blank' class='button'>View the Quiz</a>
+            <a href='https://github.com/tharwin-carr/dog-quiz-app' target='_blank' class='button'>View the Code</a>
         </section>
     </main>
 
-    <footer role= 'content-info'>
-        Footer
+    <footer id= 'contact'>
+        <p class='finalComments'>
+            The portfolio of Orange County, California-based web developer Tharwin Carr.
+        </p>
+        <div class='email'>                
+            <a href='mailto:tharwin.carr08@gmail.com' target='_blank' class='emailButton'>Email Me</a>
+        </div>
+        <div class='ending'>
+            <a href='https://www.linkedin.com/in/tharwin-carr-92b7041a3/' target='_blank' class='repo'><img src="https://img.icons8.com/ios-filled/40/000000/linkedin-2.png" alt='LinkedIn logo'/></a>
+            <a href='https://github.com/tharwin-carr' target='_blank' class='linkedin'><img src="https://img.icons8.com/ios-filled/40/000000/github.png" alt='GitHub logo'/></a>           
+        </div>    
     </footer>
     
 </body>
