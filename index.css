@@ -232,6 +232,11 @@ h3 {
         font-size: 50px;
         max-width: 80%;
     }
+
+    h2, h3 {
+        padding: 100px;
+    }
+
     .mylogo {
         width: 50px;
         margin-left: 30px;
