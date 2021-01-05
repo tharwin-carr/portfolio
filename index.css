@@ -118,6 +118,11 @@ h3 {
     padding-bottom: 30px;
     padding-top: 50px;
 }
+
+.project{
+    margin-bottom: 80px;
+}
+
 #project {
     margin-bottom: 80px;
 }
@@ -148,6 +153,10 @@ h3 {
      padding: 10px;
      margin: 0 10px 20px 0;
      color: #091935;
+ }
+
+ .btn-container {
+     margin-top: 20px;
  }
 
  .button:hover {
@@ -260,15 +269,4 @@ h3 {
     .email, .ending, .finalComments {
         max-width: 85%;
     }
-
-    
-
-   
-
-    
-
-
 }
-
-
-
