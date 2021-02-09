@@ -64,6 +64,11 @@ h1 {
     padding-left: 30px;
 }
 
+.profilepic {
+    border-radius: 50%;
+    height: 200px;
+}
+
 header {
     padding-top: 240px;
     padding-bottom: 80px;
@@ -129,6 +134,7 @@ h3 {
 
  .projectImage {
      width: 100%;
+     margin-top: 20px;
  }
 
  .projectTitle {
@@ -237,6 +243,15 @@ h3 {
 
  /* Larger screen sizes (laptops/desktops) */
 @media only screen and (min-width: 800px) {
+    header {
+        display: flex;
+        
+    }
+
+    .profilepic {
+        width: 400px;
+        height: 500px;
+    }
     h1 {
         font-size: 50px;
         max-width: 80%;
